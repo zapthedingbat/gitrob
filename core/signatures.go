@@ -701,10 +701,4 @@ var Signatures = []Signature{
     description: "Contains word: credential",
     comment:     "",
   },
-  PatternSignature{
-    part:        PartPath,
-    match:       regexp.MustCompile(`password`),
-    description: "Contains word: password",
-    comment:     "",
-  },
 }
